@@ -1,0 +1,94 @@
+/*
+
+Your styles go here!
+
+Hint! You'll probably want to start by styling:
+  * <body>
+  * <article>
+  * <h1>
+  * <img>
+
+I've left some boilerplate below for you.
+
+*/
+
+body {
+	margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color: #424242;
+}
+
+article, footer, figure {
+	width: 70em;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1 {
+	font-size: 2.5em;
+	text-align: center;
+	color: #e82222;
+	text-shadow: 2px 2px 2px #000;
+}
+
+h2 {
+	font-size: 2em;
+	text-align: center;
+	color: #e82222;
+}
+
+img {
+	max-width: 100%;
+}
+
+figcaption {
+	text-align: center;
+	margin-top: 5px;
+}
+
+.smiley-face-unicode {
+	font-size: 2em;
+}
+
+.footer-top-container {
+	margin-top: 20px;
+	padding: 10px;
+	text-align: center;
+}
+
+.footer-top-container {
+	border-top: solid 1px #808080;
+}
+
+.footer-top-container ul {
+	list-style-type: none;
+}
+
+.footer-top-container li {
+	display: inline;
+	margin-right: 15px;
+}
+
+.footer-top-container li a, .footer-bottom-container a {
+	text-decoration: none;
+	color: #313131;
+	transition: all 0.2s ease;
+}
+
+.footer-top-container li a:hover, .footer-bottom-container a:hover {
+	text-decoration: underline;
+	color: #dc3737;
+}
+
+.footer-bottom-section {
+	padding: 10px;
+	display: block;
+	margin: 0 auto;
+	width: 50%;
+	border-top: solid 1px #adadad;
+	text-align: center;
+}
